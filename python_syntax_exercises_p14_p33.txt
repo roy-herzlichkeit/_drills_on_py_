@@ -1,0 +1,105 @@
+p14. Variable names
+Rewrite short, unclear names into descriptive snake_case names.
+Practice with integers, floats, strings, and booleans.
+Write 5 examples.
+
+p15. Multiple assignment
+Turn chained or unclear assignments into readable variable blocks.
+Use names that explain what the values mean.
+Write 5 examples.
+
+p16. Function names
+Write functions with action-based snake_case names.
+Use docstrings that explain parameters and return values.
+Write 5 examples.
+
+p17. Parameters and defaults
+Create functions with clear parameter names and default values.
+Use values that make the function call easy to read.
+Write 5 examples.
+
+p18. Boolean naming
+Name booleans so they read naturally in conditions.
+Use prefixes like is_, has_, should_, or can_.
+Write 5 examples.
+
+p19. Class names
+Create class names in PascalCase.
+Use snake_case for attributes and methods.
+Write 5 examples.
+
+p20. Methods and helpers
+Separate class behavior from standalone helper functions.
+Give each name one clear job.
+Write 5 examples.
+
+p21. Constants
+Use UPPER_SNAKE_CASE for constants.
+Choose names that explain meaning, not implementation.
+Write 5 examples.
+
+p22. Modules and imports
+Write module names using lowercase_with_underscores.
+Keep import names short and clear.
+Write 5 examples.
+
+p23. Collections
+Name lists, sets, and dictionaries by what they contain.
+Make mapping names explain both sides of the relationship.
+Write 5 examples.
+
+p24. Loops
+Use loop variables that tell the reader what is being iterated.
+Prefer row, item, record, index, or user over vague names.
+Write 5 examples.
+
+p25. Comprehensions
+Keep comprehension variables small but meaningful.
+Avoid reusing names from the outer scope.
+Write 5 examples.
+
+p26. Generators
+Name generator functions so they sound like they produce things.
+Name yielded values clearly in the loop body.
+Write 5 examples.
+
+p27. Exceptions
+Name custom exceptions clearly and consistently.
+Write readable error messages that explain the problem.
+Write 5 examples.
+
+p28. File and path names
+Use _path for paths and _file for file names or handles when helpful.
+Avoid confusing temp names.
+Write 5 examples.
+
+p29. Pandas objects
+Name DataFrames, Series, and columns to match their contents.
+Use lowercase snake_case for column names.
+Write 5 examples.
+
+p30. Column cleanup
+Rewrite messy column names into clean snake_case names.
+Keep the mapping easy to read.
+Write 5 examples.
+
+p31. NumPy arrays
+Name arrays by content and shape.
+State axis meaning in a short comment.
+Write 5 examples.
+
+p32. Matplotlib plots
+Use fig and ax where appropriate.
+Give labels, titles, and legends names that match the data.
+Write 5 examples.
+
+p33. Mixed refactor
+Take a messy script and rename everything for clarity.
+Keep the behavior the same, but make the syntax and identifiers easier to read.
+Write 3 full refactor examples.
+
+Rules for every exercise
+Use Python syntax only.
+Do not write solutions in this file.
+Write your answer in a separate .py scratch file.
+Keep names consistent with PEP 8.
