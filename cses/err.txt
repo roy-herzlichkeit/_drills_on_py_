@@ -1,0 +1,5 @@
+DEBUG q= 2
+DEBUG read parts before loop: ['1', '3']
+DEBUG query 0: 1 3
+DEBUG read parts before loop: ['2', '5']
+DEBUG query 1: 2 5
